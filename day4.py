@@ -82,7 +82,7 @@ for i in string.ascii_lowercase:
 
 [print([i,j]) for i in [1,2,3,4,5] for j in ['a','b','c']]
 
-#code to print even no. in range 
+#code to print even no. in given range 
 l=[x for x in range(0,20) if x%2==0]
 print(l)
 
